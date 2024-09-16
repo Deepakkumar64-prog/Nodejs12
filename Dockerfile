@@ -1,4 +1,4 @@
-i# Use the official Node.js image.
+# Use the official Node.js image.
 FROM node:18
 
 # Create and set the working directory.
@@ -18,4 +18,4 @@ EXPOSE 3000
 
 # Command to run the app.
 CMD [ "npm", "start" ]
-
+i
